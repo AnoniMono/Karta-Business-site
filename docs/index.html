@@ -13,67 +13,316 @@
 <body>
     <div class="container">
         <header class="hero">
-            <div class="logo-container">
-                <img src="logo.svg" alt="KARTA Logo" class="logo">
+            <div class="hero-logo-icon">
+                <div class="logo-icon-box">
+                    <img src="assets/images/logo-icon.svg" alt="KARTA Logo" class="logo-icon">
+                </div>
             </div>
-            <div class="hero-content">
-                <h1 class="name">KARTA</h1>
-                <p class="tagline">Digital Business Card</p>
+            <div class="hero-left">
+                <img src="assets/images/karta-logo.svg" alt="KARTA" class="karta-logo">
+                <h1 class="hero-headline">Your Digital Business Card, Reinvented</h1>
+                <p class="hero-subheadline">Create, share, and manage your business cards with NFC, QR codes, and Google Wallet.</p>
+                <div class="hero-cta">
+                    <a href="#" class="cta-button cta-primary">Download Now</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="assets/images/phone-showcase__2_-removebg-preview.png" alt="KARTA App Preview" class="phone-mockup">
             </div>
         </header>
 
-        <main class="content">
-            <section class="info-section">
-                <div class="info-card">
-                    <h2>What is KARTA?</h2>
-                    <p class="description">
-                        KARTA is a modern digital business card application that revolutionizes how professionals share their contact information. 
-                        Create beautiful, customizable business cards and share them instantly via NFC, QR codes, or Google Wallet.
-                    </p>
-                </div>
-            </section>
+        <section class="video-section">
+            <video class="hero-video" autoplay loop muted playsinline>
+                <source src="assets/videos/video-section.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
 
-            <section class="info-section">
-                <div class="info-card">
-                    <h2>Key Features</h2>
-                    <div class="features">
-                        <div class="feature-item">
-                            <span class="feature-icon">📱</span>
-                            <div class="feature-text">
-                                <h3>NFC Sharing</h3>
-                                <p>Share your contact information instantly with a simple tap</p>
-                            </div>
+        <section class="features-snapshot">
+            <h2 class="features-title">Features Snapshot</h2>
+            <div class="features-cards">
+                <div class="feature-card feature-card-create">
+                    <div class="card-header">
+                        <div class="card-name-title">
+                            <h3 class="card-name">Create</h3>
+                            <p class="card-title">Multiple cards, profile photo, social links</p>
                         </div>
-                        <div class="feature-item">
-                            <span class="feature-icon">📲</span>
-                            <div class="feature-text">
-                                <h3>QR Codes</h3>
-                                <p>Generate QR codes for easy sharing and scanning</p>
-                            </div>
+                        <div class="card-nav-button">
+                            <span>›</span>
                         </div>
-                        <div class="feature-item">
-                            <span class="feature-icon">💳</span>
-                            <div class="feature-text">
-                                <h3>Google Wallet</h3>
-                                <p>Add your business card directly to Google Wallet</p>
-                            </div>
+                    </div>
+                    <div class="card-fields">
+                        <div class="card-field">
+                            <span class="field-icon">📄</span>
+                            <span class="field-text">Multiple cards</span>
                         </div>
-                        <div class="feature-item">
-                            <span class="feature-icon">🎨</span>
-                            <div class="feature-text">
-                                <h3>Customizable Design</h3>
-                                <p>Create beautiful, personalized business cards with custom themes</p>
-                            </div>
+                        <div class="card-field">
+                            <span class="field-icon">📷</span>
+                            <span class="field-text">Profile photo</span>
+                        </div>
+                        <div class="card-field">
+                            <span class="field-icon">🔗</span>
+                            <span class="field-text">Social links</span>
                         </div>
                     </div>
                 </div>
-            </section>
-        </main>
+                <div class="feature-card feature-card-share">
+                    <div class="card-header">
+                        <div class="card-name-title">
+                            <h3 class="card-name">Share</h3>
+                            <p class="card-title">NFC, QR codes, Google Wallet</p>
+                        </div>
+                        <div class="card-nav-button">
+                            <span>›</span>
+                        </div>
+                    </div>
+                    <div class="card-fields">
+                        <div class="card-field">
+                            <span class="field-icon">📱</span>
+                            <span class="field-text">NFC</span>
+                        </div>
+                        <div class="card-field">
+                            <span class="field-icon">📲</span>
+                            <span class="field-text">QR codes</span>
+                        </div>
+                        <div class="card-field">
+                            <span class="field-icon">💳</span>
+                            <span class="field-text">Google Wallet</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-card feature-card-customize">
+                    <div class="card-header">
+                        <div class="card-name-title">
+                            <h3 class="card-name">Customize</h3>
+                            <p class="card-title">Free + premium animated themes</p>
+                        </div>
+                        <div class="card-nav-button">
+                            <span>›</span>
+                        </div>
+                    </div>
+                    <div class="card-fields">
+                        <div class="card-field">
+                            <span class="field-icon">🎨</span>
+                            <span class="field-text">Free themes</span>
+                        </div>
+                        <div class="card-field">
+                            <span class="field-icon">⭐</span>
+                            <span class="field-text">Premium themes</span>
+                        </div>
+                        <div class="card-field">
+                            <span class="field-icon">✨</span>
+                            <span class="field-text">Animated backgrounds</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="contact-container">
+                <div class="contact-left">
+                    <h2 class="contact-title">Get in Touch</h2>
+                    <p class="contact-subtitle">Have a question, need support, or found a bug? We'd love to hear from you.</p>
+                    <p class="contact-description">Our team reviews every message and usually replies within 24–48 hours.</p>
+                    
+                    <div class="support-email-section">
+                        <p class="support-email-label">You can always reach us directly at:</p>
+                        <a href="mailto:support@karta.app" class="support-email-link">support@karta.app</a>
+                    </div>
+
+                    <div class="form-description-section">
+                        <div class="form-description">
+                            <h3 class="form-description-title">Report a Bug</h3>
+                            <p>Help us improve KARTA. If you've run into an issue, tell us what happened—include your device model, OS version, and steps to reproduce the bug so we can fix it quickly.</p>
+                        </div>
+                        <div class="form-description">
+                            <h3 class="form-description-title">Request a KARTA Code</h3>
+                            <p>KARTA offers a limited number of KARTA codes for creators, students, early adopters, and testers. If you'd like to request one, simply fill out the form and tell us a bit about how you plan to use KARTA. We'll review your request and send a code if you qualify.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <div class="form-toggle">
+                        <div class="toggle-slider"></div>
+                        <button class="toggle-btn active" data-form="contact">Contact Us</button>
+                        <button class="toggle-btn" data-form="bug">Report a Bug</button>
+                        <button class="toggle-btn" data-form="pro">Request a KARTA Code</button>
+                    </div>
+
+                    <form class="contact-form active" id="contact-form">
+                        <div class="form-group">
+                            <label for="contact-name">Name</label>
+                            <input type="text" id="contact-name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">Email</label>
+                            <input type="email" id="contact-email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-message">Message</label>
+                            <textarea id="contact-message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+
+                    <form class="contact-form" id="bug-form">
+                        <div class="form-group">
+                            <label for="bug-name">Name</label>
+                            <input type="text" id="bug-name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bug-email">Email</label>
+                            <input type="email" id="bug-email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bug-device">Device Model</label>
+                            <input type="text" id="bug-device" name="device" placeholder="e.g., iPhone 14 Pro, Samsung Galaxy S23" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bug-os">OS Version</label>
+                            <input type="text" id="bug-os" name="os" placeholder="e.g., iOS 17.0, Android 13" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="bug-description">Bug Description</label>
+                            <textarea id="bug-description" name="description" rows="5" placeholder="Describe the bug and steps to reproduce..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Report Bug</button>
+                    </form>
+
+                    <form class="contact-form" id="pro-form">
+                        <div class="form-group">
+                            <label for="pro-name">Name</label>
+                            <input type="text" id="pro-name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="pro-email">Email</label>
+                            <input type="email" id="pro-email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="pro-usage">How do you plan to use KARTA?</label>
+                            <textarea id="pro-usage" name="usage" rows="5" placeholder="Tell us about your use case, profession, or how you'll benefit from KARTA..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Request KARTA Code</button>
+                    </form>
+                </div>
+            </div>
+        </section>
 
         <footer class="footer">
-            <p>&copy; 2024 KARTA. All rights reserved.</p>
+            <div class="footer-container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <img src="assets/images/karta-logo.svg" alt="KARTA" class="footer-logo">
+                        <p class="footer-tagline">Your Digital Business Card, Reinvented</p>
+                    </div>
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <h4 class="footer-heading">Product</h4>
+                            <ul class="footer-list">
+                                <li><a href="#" class="footer-link">Features</a></li>
+                                <li><a href="#" class="footer-link">Pricing</a></li>
+                                <li><a href="#" class="footer-link">Download</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4 class="footer-heading">Support</h4>
+                            <ul class="footer-list">
+                                <li><a href="#contact" class="footer-link">Contact Us</a></li>
+                                <li><a href="mailto:support@karta.app" class="footer-link">support@karta.app</a></li>
+                                <li><a href="#" class="footer-link">Help Center</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4 class="footer-heading">Legal</h4>
+                            <ul class="footer-list">
+                                <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                                <li><a href="#" class="footer-link">Terms of Service</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="footer-copyright">© 2024 KARTA. All rights reserved.</p>
+                </div>
+            </div>
         </footer>
     </div>
+    <script>
+        // Form toggle functionality
+        const toggleButtons = document.querySelectorAll('.toggle-btn');
+        const forms = document.querySelectorAll('.contact-form');
+        const toggleSlider = document.querySelector('.toggle-slider');
+        const formToggle = document.querySelector('.form-toggle');
+
+        // Function to update slider position
+        function updateSlider(activeButton) {
+            const toggleRect = formToggle.getBoundingClientRect();
+            const buttonRect = activeButton.getBoundingClientRect();
+            const left = buttonRect.left - toggleRect.left;
+            const width = buttonRect.width;
+            
+            toggleSlider.style.transform = `translateX(${left}px)`;
+            toggleSlider.style.width = `${width}px`;
+        }
+
+        // Initialize slider position
+        function initSlider() {
+            const activeButton = document.querySelector('.toggle-btn.active');
+            if (activeButton && toggleSlider) {
+                updateSlider(activeButton);
+            }
+        }
+
+        // Initialize on load with a small delay to ensure layout is calculated
+        setTimeout(() => {
+            initSlider();
+        }, 10);
+
+        // Update on window resize
+        let resizeTimeout;
+        window.addEventListener('resize', () => {
+            clearTimeout(resizeTimeout);
+            resizeTimeout = setTimeout(() => {
+                const activeButton = document.querySelector('.toggle-btn.active');
+                if (activeButton && toggleSlider) {
+                    updateSlider(activeButton);
+                }
+            }, 100);
+        });
+
+        toggleButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const formType = button.getAttribute('data-form');
+                
+                // Update active button
+                toggleButtons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                
+                // Update slider position
+                if (toggleSlider) {
+                    updateSlider(button);
+                }
+                
+                // Show/hide forms
+                forms.forEach(form => {
+                    form.classList.remove('active');
+                    if (form.id === `${formType}-form`) {
+                        form.classList.add('active');
+                    }
+                });
+            });
+        });
+
+        // Form submission (prevent default for now)
+        document.querySelectorAll('.contact-form').forEach(form => {
+            form.addEventListener('submit', (e) => {
+                e.preventDefault();
+                // Add your form submission logic here
+                alert('Thank you! Your message has been sent.');
+            });
+        });
+    </script>
 </body>
 </html>
 
